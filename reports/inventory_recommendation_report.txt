@@ -1,0 +1,9 @@
+RETAILPULSE INVENTORY RECOMMENDATION REPORT
+=============================================
+
+Assumptions: one-month lead time and 20% safety stock.
+Product Category  Forecast_3_Month_Demand  Average_Monthly_Demand  Safety_Stock  Recommended_Stock_Level  Current_Stock  Reorder_Quantity Recommendation
+           Books                  8426.16             2808.720000           562                     3371           2500               871    Reorder Now
+        Clothing                  8363.90             2787.966667           558                     3346           3000               346    Reorder Now
+     Electronics                  7032.45             2344.150000           469                     2813           1800              1013    Reorder Now
+            Home                  7027.30             2342.433333           468                     2810           2000               810    Reorder Now

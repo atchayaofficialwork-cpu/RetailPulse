@@ -1,0 +1,27 @@
+CHURN PREDICTION MODEL REPORT
+===================================
+Rows used: 250000
+Features used: 9
+Training rows: 199901
+Testing rows: 50099
+Accuracy: 0.7229
+Balanced accuracy: 0.4994
+ROC-AUC: 0.4997
+PR-AUC: 0.1970
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.80      0.87      0.83     40224
+           1       0.20      0.13      0.16      9875
+
+    accuracy                           0.72     50099
+   macro avg       0.50      0.50      0.50     50099
+weighted avg       0.68      0.72      0.70     50099
+
+Confusion Matrix:
+[[34925  5299]
+ [ 8585  1290]]
+
+Excluded possible leakage columns when present:
+Returns, Total Purchase Amount

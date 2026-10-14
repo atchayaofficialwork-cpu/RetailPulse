@@ -1,0 +1,29 @@
+Dataset Shape: (250000, 12)
+
+Total Purchase Amount: 681,342,683.00
+
+Sales by Category:
+Product Category
+Books          204939601
+Clothing       204532405
+Electronics    136599467
+Home           135271210
+
+Churn Distribution:
+Churn
+0    200126
+1     49874
+
+Missing Values:
+Customer ID                  0
+Purchase Date                0
+Product Category             0
+Product Price                0
+Quantity                     0
+Total Purchase Amount        0
+Payment Method               0
+Customer Age                 0
+Returns                  47596
+Customer Name                0
+Gender                       0
+Churn                        0

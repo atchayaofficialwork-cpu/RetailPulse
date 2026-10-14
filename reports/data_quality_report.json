@@ -1,0 +1,49 @@
+{
+  "input_file": "ecommerce_customer_data_custom_ratios.csv",
+  "rows_before_cleaning": 250000,
+  "rows_after_cleaning": 250000,
+  "exact_duplicate_rows_removed": 0,
+  "columns_after_cleaning": [
+    "Customer ID",
+    "Purchase Date",
+    "Product Category",
+    "Product Price",
+    "Quantity",
+    "Total Purchase Amount",
+    "Payment Method",
+    "Customer Age",
+    "Returns",
+    "Customer Name",
+    "Gender",
+    "Churn"
+  ],
+  "missing_values_by_column": {
+    "Customer ID": 0,
+    "Purchase Date": 0,
+    "Product Category": 0,
+    "Product Price": 0,
+    "Quantity": 0,
+    "Total Purchase Amount": 0,
+    "Payment Method": 0,
+    "Customer Age": 0,
+    "Returns": 47596,
+    "Customer Name": 0,
+    "Gender": 0,
+    "Churn": 0
+  },
+  "suspicious_value_counts": {
+    "nonpositive_product_price": 0,
+    "nonpositive_quantity": 0,
+    "negative_purchase_amount": 0,
+    "returns_values_outside_0_1": 0,
+    "churn_values_outside_0_1": 0
+  },
+  "date_min": "2020-01-01 00:15:00",
+  "date_max": "2023-09-15 12:24:08",
+  "notes": [
+    "Missing Returns values were not automatically replaced with zero.",
+    "Missing Churn labels were not automatically imputed.",
+    "Suspicious numeric values are reported, not silently deleted.",
+    "Original source CSV was not modified."
+  ]
+}
