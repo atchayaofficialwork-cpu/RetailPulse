@@ -1,4 +1,4 @@
-﻿# RetailPulse – AI-Powered Customer Analytics & Demand Forecasting Platform
+﻿﻿# RetailPulse – AI-Powered Customer Analytics & Demand Forecasting Platform
 
 ## Project Overview
 
@@ -64,7 +64,6 @@ Windows PowerShell:
 
 Streamlit will display a local URL in the terminal. Open that URL in
 your browser to use the dashboard.
-
 ## Data and Outputs
 
 - data/raw/ contains the original dataset.
